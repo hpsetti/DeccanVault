@@ -5,7 +5,8 @@
   "author": "Harish Pillarisetti",
   "scripts": {
     "build": "nitro build",
-    "dev": "nitro dev"
+    "dev": "nitro dev",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "h3": "^1.15.4",
