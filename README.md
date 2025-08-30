@@ -16,7 +16,6 @@ It is built with **Node.js + Nitro** and designed for developers who want full c
 - You want a **private alternative** to S3 for small projects or local dev
 - You’re learning how object storage systems are built under the hood
 - You want to run your own storage service on **local hardware** or **cloud VMs**
-- You like ducks 🦆 (and Hyderabad-inspired names 😉)
 
 ## 🚀 Installation
 
@@ -72,3 +71,7 @@ deccan-vault/
 - [ ] Phase 2 → Implement Object CRUD (upload, fetch, delete files)
 - [ ] Phase 3 → Add metadata, policies, and authentication
 - [ ] Phase 4 → Optional dashboard UI
+
+## 📜 License
+
+MIT License - free to use, modify, and self-host.
