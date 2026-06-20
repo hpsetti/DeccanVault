@@ -9,8 +9,11 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "h3": "^1.15.4",
+    "h3": "latest",
     "nitro": "latest"
   },
-  "packageManager": "pnpm@11.8.0"
+  "packageManager": "pnpm@11.8.0",
+  "dependencies": {
+    "zod": "^4.4.3"
+  }
 }
