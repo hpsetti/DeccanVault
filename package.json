@@ -10,9 +10,10 @@
   },
   "devDependencies": {
     "h3": "latest",
-    "nitro": "latest"
+    "nitro": "latest",
+    "tsx": "^4.22.4"
   },
-  "packageManager": "pnpm@11.8.0",
+  "packageManager": "pnpm@11.9.0",
   "dependencies": {
     "zod": "^4.4.3"
   }
