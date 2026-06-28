@@ -1,8 +1,5 @@
-import { defineEventHandler } from "h3";
+import { defineHandler } from "nitro";
 
-export default defineEventHandler(() => {
-  return {
-    status: "ok",
-    service: "DeccanVault",
-  };
+export default defineHandler(() => {
+  return { status: "ok", service: "DeccanVault" };
 });

@@ -4,9 +4,9 @@ import { defineConfig } from "nitro";
 export default defineConfig({
   preset: "node-server",
   compatibilityDate: "latest",
-  srcDir: "server",
+  serverDir: "server",
   imports: false,
   runtimeConfig: {
-    storageRoot: "data",
+    storageRoot: "./data",
   },
 });

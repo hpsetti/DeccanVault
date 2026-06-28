@@ -1,22 +1,9 @@
-// Contains the base function for the errors
+import { HTTPError } from "h3";
 
-import { createError } from "h3";
-
-/**
- * DeccanVault error factory
- * Wraps Nitro's createError with custom codes
- */
-
-export const dvError = (
+export default function dvError(
   message: string,
-  code = "InternalError",
-  statusCode = 500
-) => {
-  return createError({
-    statusCode,
-    statusMessage: message,
-    data: {
-      code,
-    },
-  });
-};
+  code: string,
+  statusCode: number = 500,
+) {
+  return new HTTPError(message, { statusCode, data: { code } });
+}
