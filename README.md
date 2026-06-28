@@ -67,7 +67,7 @@ deccan-vault/
 ## 🎯 Roadmap
 
 - [x] Phase 0 → Scaffold project, error handling, health check
-- [ ] Phase 1 → Implement Bucket CRUD (create, list, delete buckets)
+- [x] Phase 1 → Implement Bucket CRUD (create, list, delete buckets)
 - [ ] Phase 2 → Implement Object CRUD (upload, fetch, delete files)
 - [ ] Phase 3 → Add metadata, policies, and authentication
 - [ ] Phase 4 → Optional dashboard UI
